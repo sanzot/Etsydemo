@@ -1,0 +1,36 @@
+@import "bootstrap";
+
+body {
+	
+	background-color:#F5F5F1;
+	color: #333333;
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+
+.navbar-default { 
+	
+	background-color: #81d1d6;
+	color:#0734cb;
+	}
+
+.navbar-default .navbar-brand {
+	font-family:guardian-egyptt, georgia;
+	font-weight:400;
+	color: #b13529;
+	font-size:30px;
+}
+.navbar-default .navbar-nav > li > a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color: #ff6452;
+	font-size:14px;	
+}
+
+.center{
+	text-align:center;
+}
+
+.col-md-3:nth-child(4n+1) {
+	clear:left;
+}
